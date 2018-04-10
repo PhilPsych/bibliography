@@ -4,8 +4,6 @@
 	<link href="bibliography.css" rel="stylesheet" type="text/css">
 	<link href="https://fonts.googleapis.com/css?family=Lato|Work+Sans" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<script src="editPage.js">
-	</script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js">
 	</script>
 	<title>Bibliography - K. Dewsnap</title>
@@ -45,9 +43,9 @@
             		<hr>
             		<p><a href="#coalson">Coalson, D. <i>et. Al.</i> (2010).</a> WAIS-IV: Advances in the Assessment of Intelligence</p>
             		<hr>
-            		<a href="#flynn">Flynn, J. (1987).</a> Massive IQ gains in 14 nations.
+			<p><a href="#flynn">Flynn, J. (1987).</a> Massive IQ gains in 14 nations.</p>
             		<hr>
-			<a href="#rasch">Various Authours (2018)</a> 'Rasch.com' Webpage Summaries.
+			<p><a href="#rasch">Various Authours (2018)</a> 'Rasch.com' Webpage Summaries.</p>
 			<hr>
 		</div><!--sidebar-->
 		<div id="content">
@@ -246,7 +244,20 @@
 				</div>
                 <p class="content" contenteditable="false">This webpage describes the differences between the different IRT models, and distinguishes why 1RT (i.e. Rasch model) is a better model of measurement than IRT models that use more parameters (i.e. 2RT, 3RT, etc.) The IRT function describes how a test item falls on a graph that has t (latent ability) on the x-axis, and probability of a successful answer P(x = 1) on the y-axis. There are 3 variables in the traditional IRT logit function: ci, or the odds of a correct answer while guessing (the lower asymptote); bi, or the t-level that describes 50/50 success on a test item (the median), and; ai, which is the discrimination of the test item (the maximum slope of the function at its inflection point). Rasch/1PT models lets t be the only parameter in the function, and makes all other variables constants. 2PT lets ai fluctuate, and 3PT lets both ai and ci fluctuate. </p>
                 <p class="content" contenteditable="false">Rasch theorists assume that measurement has three universal requirements: that the measurement of objects (e.g. people) be independent from the calibration of agents (e.g. items); that measurement and calibration follow the rules of arithmetic and belong to a common scale of t, and; linear combinations (as done with vectors) that are performed on calibrations and measures are analogous to the plausible concatenation of objects and agents. Rasch theorists argue that, in order to make sure calibration and measure are two independent processes, there must only be one independent variable that influences P. If t was already known (i.e. we were not trying to measure t with IRT), then we could incorporate ci and ai, and we could build more sophisticated models of the item. However, as Rasch models are not interested in modelling data but instead in providing a definition of measurement, they must let t be the only variable that influences P.</p>
-				<hr>
+				<br/>
+					<div class="bib">
+		<h4><a href="https://www.rasch.org/rmt/rmt61a.htm">IRT in the 1990s: Which Models Work Best? 3PL or Rasch?</a> on 'Rasch.com'</h4>
+					</div>
+                <p class="content" contenteditable="false">In 1992, psychometrician Ben Wright participated in a debate at the annual meeting of the American Educational Research Association (AERA). This debate was focused on comparing the Rasch model against the 3PL "Birnbaum" model, named after the American statistician. Wright was tasked with defending the Rasch model as the superior model of measurement. The Birnbaum model, developed after the Rasch model, involves introducing more parameters into the IRT equation, allowing the Birnbaum model to more accurately represent complicated data sets. Wright uses this debate to argue that the Rasch model is stronger than 3PL when it comes to measurement, even though Rasch relies on fewer parameters.</p>
+                <p class="content" contenteditable="false">Wright posits that the Rasch model and the Birnbaum model are "opposite in philosophy": the former is dedicated to be a definition of measurement, while the latter is used to imitate data sets. The clearest way that Wright demonstrates this is through using the two models to explain the Woodcock Reading Mastery Tests. This test involves ranking letters in order of difficulty by using the grade scale as an index (e.g. most 1st graders will be able to understand what red means, but words like heterogenous would require someone to be at the reading level of a 12th grader). When turning this test's items into IRFs, Rasch makes sure that individual IRFs are parallel, allowing words to have strict simple order. However, because the Birnbaum model does not restrict its parameters, the IRFs that this model produces intersect with each other, causing items to lose their order. As such, the Rasch model provides a strict definition of measurement that could not be provided with the Birnbaum model.</p>
+				<br/>
+		<div class="head">
+					<div class="bib">
+		<h4><a href="https://www.rasch.org/rmt/rmt91b.htm">3PL IRT or Rasch?</a> on 'Rasch.com'</h4>
+					</div>
+                <p class="content" contenteditable="false">By using the National Adult Literacy Scale (NALS) as an example, the author demonstrates that IRF's created by a 3PL model highly correlate with the same IRF's produced by the simpler Rasch model. The item difficulties (ie. the median point on the IRF) correlate .94 between the Rasch model and the 3PL. However, the IRFs produced by the Rasch model do not intersect, making conjoint additivity possible, according to the author. The item discrimination calculated by the 3PL model correlate -.82 with the mean-squares produced by the Rasch model. Mean-squares demonstrate the randomness (i.e. the amount of distortion) around the measurement tool. It can range from 0 to infinity, although acceptable measures range between 0.8 to 1.2.</p>
+				<hr/>
+			</div>
 			</div><!--material-->
 		</div><!--content-->
 	</div><!--main->
